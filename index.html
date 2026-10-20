@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#fff8ef" />
+    <meta name="description" content="A tiny garden of joy, music, and kind words for International Women’s Day." />
+    <title>Happy Women’s Day ♡</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="grain" aria-hidden="true"></div>
+    <div class="sky-doodles" aria-hidden="true">
+      <span class="cloud cloud-one"></span>
+      <span class="cloud cloud-two"></span>
+      <span class="star star-one">✦</span>
+      <span class="star star-two">✧</span>
+      <span class="heart heart-one">♡</span>
+      <span class="heart heart-two">♡</span>
+    </div>
+
+    <audio id="backgroundSong" preload="auto" autoplay loop playsinline hidden>
+      <source src="assets/take-me-to-your-heart-lofi.mp3" type="audio/mpeg" />
+    </audio>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <p class="eyebrow reveal">A tiny garden, just for you</p>
+        <h1 id="hero-title" class="reveal delay-one">Happy<br /><em>Women’s Day</em></h1>
+        <p class="hero-note reveal delay-two">For my sunshine<br class="desktop-break" />You've been brave for so long, but you don't have to carry it all alone anymore. You have me now ❤️</p>
+        <a class="scroll-cue reveal delay-three" href="#message">
+          <span>Click here</span>
+          <span class="arrow" aria-hidden="true">↓</span>
+        </a>
+
+        <div class="hero-garden" aria-hidden="true">
+          <div class="flower flower-pink f1"><span></span></div>
+          <div class="flower flower-yellow f2"><span></span></div>
+          <div class="flower flower-coral f3"><span></span></div>
+          <div class="flower flower-pink f4"><span></span></div>
+          <div class="flower flower-yellow f5"><span></span></div>
+          <div class="leaf leaf-one"></div>
+          <div class="leaf leaf-two"></div>
+          <div class="leaf leaf-three"></div>
+        </div>
+      </section>
+
+      <section class="message-section" id="message" aria-labelledby="message-title">
+        <div class="postcard reveal">
+          <div class="stamp" aria-hidden="true">20<br /><small>OCT</small></div>
+          <p class="postcard-kicker">A note to remind Hà Trang</p>
+          <h2 id="message-title">You make<br />a difference.</h2>
+          <div class="scribble" aria-hidden="true"></div>
+          <p>In the big things you build and the small kindnesses no one sees. In your voice, your smile, your softness, and the way you keep becoming.</p>
+          <p>You deserve room to dream, time to rest, and people who treat you with pure gentleness. I wish I could show you off to the entire world, I'm so proud of you.</p>
+          <p class="signature">I'll always be here to support you ♡</p>
+        </div>
+      </section>
+
+      <section class="wishes" aria-labelledby="wishes-title">
+        <p class="eyebrow reveal">Three wishes to keep</p>
+        <h2 id="wishes-title" class="reveal">May your next journey feel like...</h2>
+        <div class="wish-grid">
+          <article class="wish-card blush reveal">
+            <span class="card-number">01</span>
+            <div class="card-icon sun-icon" aria-hidden="true">☀</div>
+            <h3>Warm light</h3>
+            <p>More mornings that feel hopeful, and more places where you can be fully yourself.</p>
+          </article>
+          <article class="wish-card butter reveal delay-one">
+            <span class="card-number">02</span>
+            <div class="card-icon" aria-hidden="true">✿</div>
+            <h3>Wild blooming</h3>
+            <p>Dreams with deep roots, brave new branches, and absolutely no need to shrink.</p>
+          </article>
+          <article class="wish-card mint reveal delay-two">
+            <span class="card-number">03</span>
+            <div class="card-icon" aria-hidden="true">♥</div>
+            <h3>Gentle joy</h3>
+            <p>Good songs, honest laughter, quiet pride, and a thousand tiny reasons to smile.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <div id="confetti" aria-hidden="true"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
